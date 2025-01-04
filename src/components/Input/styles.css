@@ -1,0 +1,27 @@
+input {
+    width: 100%;
+    border: 1px solid #98a2b3;
+    border-radius: 8px;
+    height: 40px;
+    background-color: #fff;
+    color: #101828;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 16px;
+    padding-right: 16px;
+    outline: none;
+}
+
+input:hover{
+    border: 1px solid #101828;
+}
+
+input:focus{
+    border: 1px solid #101828;
+}
+
+input:disabled{
+    border: 1px solid #98A2B3;
+    background-color: #EAECF0;
+    color: #98A2B3;
+}

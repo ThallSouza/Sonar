@@ -1,0 +1,19 @@
+.note{
+    color: #667085;
+    font-weight: 500;
+
+    & p{
+        font-size: 12px;
+    }
+
+    & span{
+        font-size: 12px;
+        text-decoration: underline;
+        color:#366bb3;
+        cursor: pointer;
+    }
+
+    & span:hover{
+        opacity: 0.64;
+    }
+}

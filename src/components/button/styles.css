@@ -1,0 +1,53 @@
+.primary {
+    width: 100%;
+    background-color: #366bb3;
+    color: #fff;
+    font-weight:500;
+    border-radius: 8px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+  
+.primary:hover{
+    opacity: 0.64;
+}
+
+.secundary {
+    background-color: transparent;
+    color: #366bb3;
+    font-weight:600;
+    height: 40px;
+    border: 1px, solid, #366bb3;
+    border-radius: 8px;
+    cursor: pointer;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+  
+.secundary:hover{
+    opacity: 0.64;
+}
+
+.tertiary{
+    background-color: transparent;
+    text-decoration: underline;
+    font-weight:500;
+    height: 16px;
+    color: #366bb3;
+    font-size: 14px;
+    width:fit-content;
+    border: 0px;
+}
+  
+.tertiary:hover{
+    opacity: 0.64;
+}
+
+.tertiary:disabled{
+    color: #98a2b3;
+    text-decoration: none;
+    cursor:default;
+}

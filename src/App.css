@@ -1,0 +1,91 @@
+h1 {
+    color: #101828;
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+p {
+    color: #667085;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+form {
+    background-color: #fff;
+    padding: 40px 24px 40px 24px;
+    width: 378px;
+    align-items: center;
+    border-radius: 32px 32px 0px 0px;
+}
+
+img {
+    height: 24px;
+    width: auto;
+    border-radius: 0px;
+}
+
+/* ----- Desktop View -----*/
+
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.left-section{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.right-section {
+    flex: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+    border-radius: 40px 0px 0px 40px;
+}
+
+/* ----- Mobile View -----*/
+
+@media (max-width: 768px) {
+    .container{
+        flex-direction: column;
+        height: auto;
+    }
+    .right-section{
+        flex: none;
+        width: 100%;
+    }
+    .left-section{
+        flex: none;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: #fff;
+    }
+    form{
+        z-index: 1;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+    .imagem{
+        height: 60vh;
+        width: 100%;
+        border-radius: 0px;
+        object-fit: cover;
+    }
+}
